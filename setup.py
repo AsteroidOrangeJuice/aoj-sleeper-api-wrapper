@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="sleeper-api-wrapper",
+    name="aoj-sleeper-api-wrapper",
     version="1.0.7",
     description="A Python API wrapper for Sleeper Fantasy Football, as well as tools to simplify data recieved.",
     long_description=README,
