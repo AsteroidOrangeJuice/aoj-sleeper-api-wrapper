@@ -2,7 +2,7 @@ import logging
 
 from .base_api import BaseApi
 
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
 
 class Players(BaseApi):
 	"""Retrieves player data from Sleeper."""

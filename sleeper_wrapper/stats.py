@@ -3,7 +3,7 @@ from typing import Union
 
 from sleeper_wrapper.base_api import BaseApi
 
-logging.basicConfig(level=logging.WARN)
+# logging.basicConfig(level=logging.WARN)
 
 warning_message = "The Stats API is no longer included in Sleeper's documentation, therefore we cannot guarantee that this class will continue working."
 
